@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections;
-using System.Text.RegularExpressions;
 
 #region задания
 /*
@@ -22,22 +20,6 @@ namespace Homeworks
 {
     class MainClass
     {
-
-        public static int Priority(char op)
-        {
-            switch (op)
-            {
-                case '*':
-                case '/':
-                    return 2;
-                case '+':
-                case '-':
-                    return 1;
-            }
-            return 0;
-        }
-
-
         public static void Main(string[] args)
         {
             #region task1
