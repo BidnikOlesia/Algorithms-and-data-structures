@@ -21,8 +21,6 @@ namespace Homeworks
         Node<T> tail;
         int count;
 
-        public int Count { get { return count; } }
-        public bool IsEmpty { get { return count == 0; } }
 
         /// <summary>
         /// Добавление в очередь
@@ -53,14 +51,6 @@ namespace Homeworks
             count--;
             return output;
         }
-
-        //public void Clear()
-        //{
-        //    head = null;
-        //    tail = null;
-        //    count = 0;
-        //}
-
 
 
         IEnumerator IEnumerable.GetEnumerator()
