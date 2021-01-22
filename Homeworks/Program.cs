@@ -38,6 +38,7 @@ namespace Homeworks
             Console.WriteLine($"{GetHash(source)}");
             #endregion
 
+            #region task2
             BinaryTree<int> tree = new BinaryTree<int>();
 
             Random rand = new Random();
@@ -55,6 +56,7 @@ namespace Homeworks
             Console.WriteLine(string.Join(" ", tree.Inorder()));
             Console.WriteLine("Postorder traversal:");
             Console.WriteLine(string.Join(" ", tree.Postorder()));
+            #endregion
 
         }
     }
